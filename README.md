@@ -1,1 +1,1 @@
-# odin-restaurant-page
+I'm going to create a restaurant page using HTML, CSS & JS and focusing on the use of Webpack
