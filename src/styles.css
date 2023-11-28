@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300&display=swap');
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: "Poppins", "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #191919;
+    color: white;
+}
+
+#content > *{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#buttons-div{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+    gap: 20px;
+}
+
+button{
+    height: 30px;
+    width: 150px;
+    cursor: pointer;
+    font-family: inherit;
+    background-color: #191919;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+}
+
+button:hover{
+    border: 1px solid white;
+}
+
+header {
+    font-size: 5rem;
+}
+
+.tab-div{
+    margin: 100px;
+}
+
+.tab-div > *{
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+}
+
+.menuGrid{
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+}
+
+.foodDiv > img {
+    border-radius: 5px;
+    width: 300px;
+    height: 200px;
+}
+
+.foodDiv > p{
+    font-size: 1.5rem;
+}
+
+.homeImg{
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.homeText{
+    font-size: 1.5rem;
+}
+
+h3{
+    font-size: 2.5rem;
+}
+
+.hoursText, .locationText, .phoneText{
+    font-size: 1.5rem;
+}
+
+.column-flex-divs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
